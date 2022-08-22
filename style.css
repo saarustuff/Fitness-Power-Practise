@@ -42,7 +42,7 @@
     color: white;
 }
 .banner-left {
-    margin-left: 10px;
+    margin-left: 40px;
     padding: 0px 15px;
 }
 .banner-image {
@@ -54,10 +54,12 @@
 }
 .banner-text2 {
     padding: 5px 0px;
+    text-align: justify;
 }
 .banner-title {
     color: rgb(234, 16, 16);
-    font-size: 30px;
+    font-family: montserrat;
+    font-size: 50px;
     padding: 5px 0px;
 }
 .banner-title:hover {
@@ -65,13 +67,16 @@
     color: rgb(29, 190, 29);
 }
 .banner-btn {
-    margin-top: 5px;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 500;
     color: white;
     background-color: rgb(234, 16, 16);
+}
+.banner-btn:hover{
+    background-color:rgb(29, 37, 190) ;
 }
 
 
